@@ -1,6 +1,6 @@
 import './App.scss';
 import { TodoList } from './components/TodoList';
-import { todosFromServer } from './api/todos.json';
+import todosFromServer from './api/todos.json';
 
 export const App = () => (
   <div className="App">
